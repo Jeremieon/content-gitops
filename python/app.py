@@ -1,6 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
+#simple route app
 @app.route("/")
 def hello():
     return "Hello ACGBILI Students!"
